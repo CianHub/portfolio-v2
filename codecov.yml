@@ -4,3 +4,5 @@ ignore:
   - 'src/setupTests.ts'
   - 'src/react-app-env.d.ts'
   - '**/*.json'
+  - '**/node_modules/'
+  - '**/coverage/'
