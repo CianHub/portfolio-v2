@@ -36,6 +36,14 @@ jobs:
         with:
           fail_ci_if_error: true
 
+      - name: Test & publish code coverage to Code Climate
+        uses: paambaati/codeclimate-action@v2.7.4
+        env:
+          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID}}
+        with:
+          coverageLocations: |
+            ${{github.workspace}}/*.lcov:lcov
+
       - name: Build
         run: npm run build
 
