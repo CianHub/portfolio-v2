@@ -6,4 +6,13 @@
 
 ## CI/CD
 
-Any changes to the code in this application must pass the custom pipeline before being merged. The incoming code is tested, it's coverage checked by Codecov and Code Climate, it's maintainability and quality checked by Code Climate, it's formatting by ESLint and as well as it's build and deployment checked for issues. The pipeline is run with GitHub Actions.
+To avoid issues and ensure quality, any changes to the code in this application must pass the custom pipeline before being merged.
+
+The pipeline is run with GitHub Actions and executes the following:
+
+<ul>
+<li>Tests are run and it's coverage checked by Codecov</li>
+<li>Formatting, syntax and standards by ESLint </li>
+<li>Maintainability and quality checked by Code Climate</li>
+<li>Build and deployment are checked by running the commands</li>
+</ul>
