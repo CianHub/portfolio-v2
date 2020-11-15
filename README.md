@@ -10,7 +10,7 @@ This project is a replacement for my previous personal website.
 
 The application design outlined in the mock-ups utilise a minimal responsive design.
 
-The color pallette for the application were selected to give the feel of a code editor and compliment each other well.
+The design mainly uses the Monaco and Roboto fonts while the color pallette for the application was selected to give the feel of a code editor and compliment each other well.
 
 For reference these are:
 
@@ -23,7 +23,7 @@ For reference these are:
 <li>#FFFFFF</li>
 </ul>
 
-The goal of the apps design was to keep everything as minimal, while preserving the styled code theme and providing an efficient and functional means of displaying the data for the user.
+The goal of the apps design is to balance the styled code theme and provide an efficient and functional means of displaying the data to the user.
 
 ## CI/CD
 
