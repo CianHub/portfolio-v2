@@ -4,3 +4,4 @@ reportWebVitals.ts
 setupTests.ts 
 react-app-env.d.ts
 index.tsx
+src/models/graphql
