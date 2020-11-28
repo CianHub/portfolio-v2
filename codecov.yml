@@ -8,3 +8,4 @@ ignore:
   - '**/coverage/'
   - 'src/models/graphql/**'
   - 'src/testdata/**'
+  - 'src/graphql/client.ts'

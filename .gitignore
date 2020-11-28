@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 /.env
+schema.graphql
+/coverage
 
 # production
 /build

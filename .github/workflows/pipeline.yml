@@ -46,6 +46,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          REACT_APP_GH_PA_TOKEN: ${{ secrets.REACT_APP_GH_PA_TOKEN }}
 
       - name: Deploy
         run: |
