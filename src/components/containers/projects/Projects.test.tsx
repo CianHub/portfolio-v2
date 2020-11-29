@@ -1,6 +1,6 @@
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
-import { Projects } from './Projects';
+import Projects from './Projects';
 
 const component = TestRenderer.create(<Projects />);
 

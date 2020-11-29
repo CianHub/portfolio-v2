@@ -1,12 +1,12 @@
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
-import Blog from './Blog';
+import BlogPost from './BlogPost';
 
-const component = TestRenderer.create(<Blog />);
+const component = TestRenderer.create(<BlogPost />);
 
-describe('Blog', () => {
+describe('BlogPost', () => {
   it('should render the component', () => {
     const tree = component.toJSON() as TestRenderer.ReactTestRendererJSON;
-    expect(tree.children).toContain('Blog');
+    expect(tree.children).toContain('BlogPost');
   });
 });
