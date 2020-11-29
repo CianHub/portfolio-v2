@@ -3,7 +3,7 @@ import { MockedProvider } from '@apollo/client/testing';
 
 import App from './App';
 import { mockQueryData, mockQueryError } from './testdata/mockQuery';
-import { getByText, render, waitFor } from '@testing-library/react';
+import { getByRole, getByText, render, waitFor } from '@testing-library/react';
 
 describe('App', () => {
   it('should render loading state initially', () => {
@@ -24,7 +24,7 @@ describe('App', () => {
     );
 
     await waitFor(() => {
-      expect(getByText(container, 'Navbar')).toBeInTheDocument();
+      expect(getByRole(container, 'navbar')).toBeInTheDocument();
       expect(getByText(container, 'About')).toBeInTheDocument();
     });
   });
