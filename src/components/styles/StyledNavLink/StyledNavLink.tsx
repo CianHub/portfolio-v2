@@ -17,11 +17,14 @@ export const StyledNavLink = styled.div<StyledNavLinkProps>`
     transition: 200ms ease-in-out;
     margin-left: 0;
   }
+
   a:hover {
-    text-decoration: underline;
+    color: ${(props) => props.fontColor};
+    text-decoration: ${(props) => (props.isActive ? 'none' : 'underline')};
+    cursor: pointer;
   }
 
-  @media (max-width: 1024px) {
+  @media (min-width: 1024px) {
     margin-left: 2.5rem;
   }
 `;
