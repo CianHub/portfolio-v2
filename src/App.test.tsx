@@ -11,6 +11,8 @@ const dataComponentStructure = (
   </MockedProvider>
 );
 
+dataComponentStructure.props;
+
 const errorComponentStructure = (
   <MockedProvider mocks={mockQueryError} addTypename={false}>
     <App />
@@ -19,6 +21,7 @@ const errorComponentStructure = (
 
 const component = TestRenderer.create(dataComponentStructure);
 const errorComponent = TestRenderer.create(errorComponentStructure);
+jest.spyOn(React, 'lazy');
 
 describe('App', () => {
   it('should render loading state initially', () => {
@@ -34,10 +37,15 @@ describe('App', () => {
     );
 
     await act(async () => {
-      await new Promise((resolve) => setTimeout(resolve, 0));
+      await new Promise((resolve) => setTimeout(resolve, 1000));
 
-      const title = component.root.findByType('h1');
-      expect(title.children).toContain('CianHub');
+      const main = component.root.findByType('main');
+      const header = component.root.findByType('header');
+      const navbar = component.root.findByType('nav');
+
+      expect(main.children.length).toEqual(1);
+      expect(header.children.length).toEqual(1);
+      expect(navbar.children).toContain('Navbar');
     });
   });
 

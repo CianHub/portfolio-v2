@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1606607539240" clover="3.2.0">
-  <project timestamp="1606607539240" name="All files">
-    <metrics statements="28" coveredstatements="28" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="14" elements="42" coveredelements="42" complexity="0" loc="28" ncloc="28" packages="14" files="14" classes="14"/>
-    <package name="containers.about">
+<coverage generated="1606615317800" clover="3.2.0">
+  <project timestamp="1606615317800" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6" elements="25" coveredelements="25" complexity="0" loc="15" ncloc="15" packages="6" files="6" classes="6"/>
+    <package name="src">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="App.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/App.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="24" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.containers.about">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="About.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/containers/about/About.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
       </file>
     </package>
-    <package name="containers.blog">
+    <package name="src.components.containers.blog">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Blog.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/containers/blog/Blog.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -18,97 +29,25 @@
         <line num="4" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="containers.navbar">
+    <package name="src.components.containers.blogpost">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="BlogPost.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/containers/blogpost/BlogPost.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.containers.navbar">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Navbar.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/containers/navbar/Navbar.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
       </file>
     </package>
-    <package name="containers.projects">
+    <package name="src.components.containers.projects">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Projects.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/containers/projects/Projects.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="view.about-text">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="AboutText.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/view/about-text/AboutText.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="view.box-button">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="BoxButton.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/view/box-button/BoxButton.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="view.box-container">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="BoxContainer.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/view/box-container/BoxContainer.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="view.box-description">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="BoxDescription.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/view/box-description/BoxDescription.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="view.box-hashtag">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="BoxHashtag.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/view/box-hashtag/BoxHashtag.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="view.box-logo">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="BoxLogo.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/view/box-logo/BoxLogo.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="view.box-title">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="BoxTitle.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/view/box-title/BoxTitle.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="view.margin">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="Margin.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/view/margin/Margin.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="view.page-title">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="PageTitle.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/view/page-title/PageTitle.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="view.tag">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="Tag.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/view/tag/Tag.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
