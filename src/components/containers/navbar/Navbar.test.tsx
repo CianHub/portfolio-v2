@@ -1,12 +1,25 @@
 import React from 'react';
-import TestRenderer from 'react-test-renderer';
 import { Navbar } from './Navbar';
 
-const component = TestRenderer.create(<Navbar />);
+import { render } from 'react-dom';
+import { act } from 'react-dom/test-utils';
+import { afterTest, beforeTest } from '../../../helpers/testHelpers';
+
+let container: HTMLElement | null;
+
+beforeEach(() => {
+  container = beforeTest() as HTMLElement;
+});
+
+afterEach(() => {
+  container = afterTest(container as HTMLElement);
+});
 
 describe('Navbar', () => {
   it('should render the component', () => {
-    const tree = component.toJSON() as TestRenderer.ReactTestRendererJSON;
-    expect(tree.children).toContain('Navbar');
+    act(() => {
+      render(<Navbar />, container);
+    });
+    expect(container?.textContent).toBe('Navbar');
   });
 });
