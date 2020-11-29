@@ -1,12 +1,25 @@
 import React from 'react';
-import TestRenderer from 'react-test-renderer';
 import { BoxLogo } from './BoxLogo';
 
-const component = TestRenderer.create(<BoxLogo />);
+import { render } from 'react-dom';
+import { act } from 'react-dom/test-utils';
+import { afterTest, beforeTest } from '../../../helpers/testHelpers';
+
+let container: HTMLElement | null;
+
+beforeEach(() => {
+  container = beforeTest() as HTMLElement;
+});
+
+afterEach(() => {
+  container = afterTest(container as HTMLElement);
+});
 
 describe('BoxLogo', () => {
   it('should render the component', () => {
-    const tree = component.toJSON() as TestRenderer.ReactTestRendererJSON;
-    expect(tree.children).toContain('BoxLogo');
+    act(() => {
+      render(<BoxLogo />, container);
+    });
+    expect(container?.textContent).toBe('BoxLogo');
   });
 });

@@ -1,12 +1,25 @@
 import React from 'react';
-import TestRenderer from 'react-test-renderer';
 import BlogPost from './BlogPost';
 
-const component = TestRenderer.create(<BlogPost />);
+import { render } from 'react-dom';
+import { act } from 'react-dom/test-utils';
+import { afterTest, beforeTest } from '../../../helpers/testHelpers';
+
+let container: HTMLElement | null;
+
+beforeEach(() => {
+  container = beforeTest() as HTMLElement;
+});
+
+afterEach(() => {
+  container = afterTest(container as HTMLElement);
+});
 
 describe('BlogPost', () => {
   it('should render the component', () => {
-    const tree = component.toJSON() as TestRenderer.ReactTestRendererJSON;
-    expect(tree.children).toContain('BlogPost');
+    act(() => {
+      render(<BlogPost />, container);
+    });
+    expect(container?.textContent).toBe('BlogPost');
   });
 });
