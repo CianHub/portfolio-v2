@@ -31,7 +31,11 @@ export const Navbar: React.FC = () => {
           <Link to={link.url}>{link.label}</Link>
         </StyledNavLink>
       ) : (
-        <StyledNavLink theme={Theme} key={link.label + link.url}>
+        <StyledNavLink
+          theme={Theme}
+          key={link.label + link.url}
+          fontColor={link.isActiveColor}
+        >
           <Link to={link.url}>{link.label}</Link>
         </StyledNavLink>
       );

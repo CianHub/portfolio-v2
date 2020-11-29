@@ -15,7 +15,7 @@ export const StyledNavbar = styled.nav<StyledNavbarProps>`
   font-family: ${(props) => props.theme.fonts.monaco};
   justify-content: space-evenly;
 
-  @media (max-width: 1024px) {
+  @media (min-width: 1024px) {
     justify-content: flex-start;
   }
 `;
