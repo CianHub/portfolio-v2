@@ -15,16 +15,12 @@ export const StyledNavLink = styled.div<StyledNavLinkProps>`
     font-family: ${(props) => props.theme.fonts.monaco};
     text-decoration: none;
     transition: 200ms ease-in-out;
-    margin-left: 0;
+    margin-left: 2.5rem;
   }
 
   a:hover {
     color: ${(props) => props.fontColor};
     text-decoration: ${(props) => (props.isActive ? 'none' : 'underline')};
     cursor: pointer;
-  }
-
-  @media (min-width: 1024px) {
-    margin-left: 2.5rem;
   }
 `;

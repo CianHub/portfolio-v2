@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-interface StyledNavbarProps {
+interface StyledSectionProps {
   readonly backgroundColor?: string;
   readonly fontColor?: string;
 }
 
-export const StyledNavbar = styled.nav<StyledNavbarProps>`
+export const StyledSection = styled.section<StyledSectionProps>`
   background-color: ${(props) =>
     props?.backgroundColor ? props?.backgroundColor : props.theme.colors.black};
   color: ${(props) =>
@@ -13,7 +13,8 @@ export const StyledNavbar = styled.nav<StyledNavbarProps>`
   padding: 1rem;
   display: flex;
   font-family: ${(props) => props.theme.fonts.monaco};
-  justify-content: flex-start;
+  min-height: 100vh;
+  height: 100%;
 
   @media (min-width: 1024px) {
     justify-content: flex-start;
