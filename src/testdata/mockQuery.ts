@@ -1,6 +1,5 @@
 import { GraphQLError } from 'graphql';
 import { REPOS_QUERY } from '../graphql/queries';
-import { GetRepos } from '../models/graphqL/GetRepos';
 
 export const mockQueryData = [
   {
@@ -11,7 +10,7 @@ export const mockQueryData = [
         firstLang: 10,
       },
     },
-    result: (): { data: GetRepos } => {
+    result: (): unknown => {
       return {
         data: {
           viewer: {
