@@ -1,1 +1,0 @@
-{"version":3,"sources":["components/containers/blogpost/BlogPost.tsx"],"names":["BlogPost"],"mappings":"8IAMeA,UAJY,WACzB,OAAO","file":"static/js/5.c7a16058.chunk.js","sourcesContent":["import React from 'react';\n\nconst BlogPost: React.FC = () => {\n  return <article>BlogPost</article>;\n};\n\nexport default BlogPost;\n"],"sourceRoot":""}

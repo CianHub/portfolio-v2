@@ -1,1 +1,0 @@
-{"version":3,"sources":["components/containers/blog/Blog.tsx"],"names":["Blog"],"mappings":"8IAMeA,UAJQ,WACrB,OAAO","file":"static/js/4.fd6736f2.chunk.js","sourcesContent":["import React from 'react';\n\nconst Blog: React.FC = () => {\n  return <div>Blog</div>;\n};\n\nexport default Blog;\n"],"sourceRoot":""}

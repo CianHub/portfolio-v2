@@ -1,2 +1,0 @@
-(this["webpackJsonpportfolio-2020"]=this["webpackJsonpportfolio-2020"]||[]).push([[3],{91:function(t,o,i){"use strict";i.r(o);var n=i(6);i(2);o.default=function(){return Object(n.jsx)("div",{children:"About"})}}}]);
-//# sourceMappingURL=3.3be01520.chunk.js.map
