@@ -26,8 +26,12 @@ describe('TypedText', () => {
           key="text-line"
           textToDisplay={'test'}
           textToType={'test'}
-          setText={() => {}}
-          setTextTyped={() => {}}
+          setText={() => {
+            return;
+          }}
+          setTextTyped={() => {
+            return;
+          }}
           textTyped={false}
           firstLine={true}
           fontColor={Theme.colors.green}
