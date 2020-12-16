@@ -4,6 +4,7 @@ import { Margin } from './Margin';
 import { render } from 'react-dom';
 import { act } from 'react-dom/test-utils';
 import { afterTest, beforeTest } from '../../../helpers/testHelpers';
+import { getByRole } from '@testing-library/react';
 
 let container: HTMLElement | null;
 
@@ -24,6 +25,6 @@ describe('Margin', () => {
     act(() => {
       render(<Margin marginCount={18} />, container);
     });
-    expect(container?.textContent).toBe('Margin');
+    expect(getByRole(container as HTMLElement, 'Margin')).toBeInTheDocument();
   });
 });
