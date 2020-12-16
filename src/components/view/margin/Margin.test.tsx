@@ -4,8 +4,13 @@ import { Margin } from './Margin';
 import { render } from 'react-dom';
 import { act } from 'react-dom/test-utils';
 import { afterTest, beforeTest } from '../../../helpers/testHelpers';
+import { getByRole } from '@testing-library/react';
 
 let container: HTMLElement | null;
+
+jest.mock('../../../hooks/useCurrentPath', () => {
+  return jest.fn(() => '/about');
+});
 
 beforeEach(() => {
   container = beforeTest() as HTMLElement;
@@ -18,8 +23,8 @@ afterEach(() => {
 describe('Margin', () => {
   it('should render the component', () => {
     act(() => {
-      render(<Margin />, container);
+      render(<Margin marginCount={18} />, container);
     });
-    expect(container?.textContent).toBe('Margin');
+    expect(getByRole(container as HTMLElement, 'Margin')).toBeInTheDocument();
   });
 });

@@ -25,6 +25,7 @@ export const AboutText: React.FC = () => {
 
   const typedText = [
     <TypedText
+      index={0}
       key="text-line"
       textToDisplay={textLine}
       textToType={aboutText[0]}
@@ -35,6 +36,7 @@ export const AboutText: React.FC = () => {
       fontColor={Theme.colors.green}
     />,
     <TypedText
+      index={1}
       key="text-line1"
       textToDisplay={textLine1}
       textToType={aboutText[1]}
@@ -44,6 +46,7 @@ export const AboutText: React.FC = () => {
       firstLine={true}
     />,
     <TypedText
+      index={2}
       key="text-line2"
       textToDisplay={textLine2}
       textToType={aboutText[2]}
@@ -52,6 +55,7 @@ export const AboutText: React.FC = () => {
       textTyped={textLine2Done}
     />,
     <TypedText
+      index={3}
       key="text-line3"
       textToDisplay={textLine3}
       textToType={aboutText[3]}
@@ -61,7 +65,7 @@ export const AboutText: React.FC = () => {
     />,
   ];
 
-  const typeText = () => {
+  const typeText = (): JSX.Element[] => {
     const textTypedLines = [typedText[0]];
 
     if (textLineDone) textTypedLines.push(typedText[1]);
@@ -71,5 +75,5 @@ export const AboutText: React.FC = () => {
     return textTypedLines;
   };
 
-  return <div>{typeText()}</div>;
+  return <div role="AboutText">{typeText()}</div>;
 };
