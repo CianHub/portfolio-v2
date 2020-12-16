@@ -7,6 +7,10 @@ import { afterTest, beforeTest } from '../../../helpers/testHelpers';
 
 let container: HTMLElement | null;
 
+jest.mock('../../../hooks/useCurrentPath', () => {
+  return jest.fn(() => '/about');
+});
+
 beforeEach(() => {
   container = beforeTest() as HTMLElement;
 });
@@ -18,7 +22,7 @@ afterEach(() => {
 describe('Margin', () => {
   it('should render the component', () => {
     act(() => {
-      render(<Margin />, container);
+      render(<Margin marginCount={18} />, container);
     });
     expect(container?.textContent).toBe('Margin');
   });
