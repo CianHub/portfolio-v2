@@ -10,3 +10,4 @@ ignore:
   - 'src/testdata/**'
   - 'src/graphql/client.ts'
   - 'src/helpers/lazyLoading.ts'
+  - 'src/components/context'

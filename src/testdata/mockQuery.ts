@@ -10,7 +10,7 @@ export const mockQueryData = [
         firstLang: 10,
       },
     },
-    result: (): unknown => {
+    result: () => {
       return {
         data: {
           viewer: {

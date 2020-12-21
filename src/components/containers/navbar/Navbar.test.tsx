@@ -18,7 +18,6 @@ describe('Navbar', () => {
     expect(screen.getByRole('navbar')).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'About' })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'Projects' })).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: 'Blog' })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'About' })).toHaveStyle({
       color: Theme.colors.green,
     });
@@ -36,21 +35,6 @@ describe('Navbar', () => {
 
     expect(screen.getByRole('link', { name: 'Projects' })).toHaveStyle({
       color: Theme.colors.orange,
-    });
-  });
-
-  it('should render the styles for /blog', () => {
-    const history = createMemoryHistory();
-    history.push('/blog');
-
-    render(
-      <Router history={history}>
-        <Navbar />
-      </Router>
-    );
-
-    expect(screen.getByRole('link', { name: 'Blog' })).toHaveStyle({
-      color: Theme.colors.blue,
     });
   });
 });

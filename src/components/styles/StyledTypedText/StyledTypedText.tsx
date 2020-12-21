@@ -7,10 +7,12 @@ interface StyledTypedTextProps {
 }
 
 export const StyledTypedText = styled.div<StyledTypedTextProps>`
-  font-size: ${(props) => (props.firstLine ? '1.5rem' : '1rem')};
+  font-size: ${(props) => (props.firstLine ? '2rem' : '1.2rem')};
   margin-top: ${(props) => (props.firstLine ? '0' : '1rem')};
+  margin-bottom: ${(props) => (props.firstLine ? '1rem' : '0')};
   display: ${(props) => (props.firstLine ? 'inline' : 'default')};
   color: ${(props) => (props.fontColor ? props.fontColor : 'default')};
+  transition: all 0.4s ease-in-out;
 
   &:after {
     content: '';
@@ -26,5 +28,9 @@ export const StyledTypedText = styled.div<StyledTypedTextProps>`
     100% {
       opacity: 1;
     }
+  }
+
+  @media (min-width: 1024px) {
+    font-size: ${(props) => (props.firstLine ? '2rem' : '1.2rem')};
   }
 `;

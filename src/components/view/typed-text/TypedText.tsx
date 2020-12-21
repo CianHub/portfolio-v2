@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { StyledTypedText } from '../../styles/StyledTypedText/StyledTypedText';
+import { Fade } from 'react-awesome-reveal';
 
 interface Props {
   index: number;
@@ -10,6 +11,7 @@ interface Props {
   setTextTyped: React.Dispatch<React.SetStateAction<boolean>>;
   firstLine?: boolean;
   fontColor?: string;
+  animationFinished: boolean;
 }
 
 export const TypedText: React.FC<Props> = ({
@@ -20,6 +22,7 @@ export const TypedText: React.FC<Props> = ({
   textTyped,
   firstLine,
   fontColor,
+  animationFinished,
 }) => {
   let textIndex = 0;
   let currentText = '';
@@ -50,13 +53,15 @@ export const TypedText: React.FC<Props> = ({
   }, []);
 
   return (
-    <StyledTypedText
-      role={'TypedText'}
-      showBlinker={!textTyped}
-      firstLine={firstLine}
-      fontColor={fontColor}
-    >
-      {textToDisplay}
-    </StyledTypedText>
+    <Fade>
+      <StyledTypedText
+        role={'TypedText'}
+        showBlinker={!textTyped}
+        firstLine={firstLine}
+        fontColor={fontColor}
+      >
+        {animationFinished ? textToType : textToDisplay}
+      </StyledTypedText>
+    </Fade>
   );
 };
