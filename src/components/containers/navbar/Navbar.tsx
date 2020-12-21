@@ -13,7 +13,7 @@ const navLinks: NavLink[] = [
     label: 'Projects',
     isActiveColor: `${Theme.colors.orange}`,
   },
-  { url: '/blog', label: 'Blog', isActiveColor: `${Theme.colors.blue}` },
+  //{ url: '/blog', label: 'Blog', isActiveColor: `${Theme.colors.blue}` },
 ];
 
 export const Navbar: React.FC = () => {
