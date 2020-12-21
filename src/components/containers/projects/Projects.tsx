@@ -25,7 +25,14 @@ const displayProjects = (
         <span style={{ marginBottom: '1rem', fontSize: '0.8rem' }}>
           Last Updated: {repo?.updatedAt.split('T')[0]}
         </span>
-        <StyledBoxButton theme={Theme}>View Repository &gt;</StyledBoxButton>
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          style={{ textDecoration: 'none', color: 'inherit' }}
+          href={repo?.url}
+        >
+          <StyledBoxButton theme={Theme}>View Repository &gt;</StyledBoxButton>
+        </a>
       </BoxContainer>
     );
   });
