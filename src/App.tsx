@@ -14,7 +14,7 @@ import {
 import { GetRepos } from './models/graphqL/GetRepos';
 
 const App: React.FC = () => {
-  const { loading, error } = useQuery<GetRepos>(REPOS_QUERY, {
+  const { data, loading, error } = useQuery<GetRepos>(REPOS_QUERY, {
     variables: {
       firstRepo: 100,
       firstLang: 10,
@@ -40,7 +40,7 @@ const App: React.FC = () => {
                 <LazyBlog />
               </Route>
               <Route exact path="/projects">
-                <LazyProjects />
+                <LazyProjects projects={data?.viewer?.repositories?.nodes} />
               </Route>
               <Route path="/">
                 <LazyAbout />

@@ -18,8 +18,8 @@ afterEach(() => {
 describe('BoxContainer', () => {
   it('should render the component', () => {
     act(() => {
-      render(<BoxContainer />, container);
+      render(<BoxContainer>test</BoxContainer>, container);
     });
-    expect(container?.textContent).toBe('BoxContainer');
+    expect(container?.textContent).toBe('test');
   });
 });

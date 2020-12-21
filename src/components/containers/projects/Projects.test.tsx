@@ -18,8 +18,10 @@ afterEach(() => {
 describe('Projects', () => {
   it('should render the component', () => {
     act(() => {
-      render(<Projects />, container);
+      render(<Projects projects={[]} />, container);
     });
-    expect(container?.textContent).toBe('Projects');
+    expect(container?.textContent).toBe(
+      'Projects:// A collection of my projects and their corresponding repositories.'
+    );
   });
 });

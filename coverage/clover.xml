@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1608513117617" clover="3.2.0">
-  <project timestamp="1608513117617" name="All files">
-    <metrics statements="94" coveredstatements="91" conditionals="52" coveredconditionals="44" methods="41" coveredmethods="38" elements="187" coveredelements="173" complexity="0" loc="94" ncloc="94" packages="12" files="15" classes="15"/>
+<coverage generated="1608567572186" clover="3.2.0">
+  <project timestamp="1608567572186" name="All files">
+    <metrics statements="45" coveredstatements="36" conditionals="16" coveredconditionals="12" methods="24" coveredmethods="15" elements="85" coveredelements="63" complexity="0" loc="45" ncloc="45" packages="11" files="12" classes="12"/>
     <package name="src">
-      <metrics statements="7" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <file name="App.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/App.tsx">
         <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="16" count="1" type="stmt"/>
@@ -12,169 +12,108 @@
         <line num="25" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="27" count="1" type="stmt"/>
       </file>
-      <file name="index.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/index.tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
+    </package>
+    <package name="src.components.containers.projects">
+      <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="Projects.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/containers/projects/Projects.tsx">
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.containers.about">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="About.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/containers/about/About.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
+    <package name="src.components.styles.StyledBoxButton">
+      <metrics statements="6" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="StyledBoxButton.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/styles/StyledBoxButton/StyledBoxButton.tsx">
+        <metrics statements="6" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.containers.navbar">
-      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-      <file name="Navbar.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/containers/navbar/Navbar.tsx">
-        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="22" count="3" type="stmt"/>
-        <line num="23" count="3" type="stmt"/>
-        <line num="24" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="45" count="3" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components.context">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="AnimationDoneContext.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/context/AnimationDoneContext.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="4" type="stmt"/>
-      </file>
-      <file name="AnimationDoneContextProvider.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/context/AnimationDoneContextProvider.tsx">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+    <package name="src.components.styles.StyledBoxContainer">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="StyledBoxContainer.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/styles/StyledBoxContainer/StyledBoxContainer.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.styles">
+    <package name="src.components.styles.StyledBoxDescription">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="theme.ts" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/styles/theme.ts">
+      <file name="StyledBoxDescription.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/styles/StyledBoxDescription/StyledBoxDescription.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="8" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.styles.StyledLink">
-      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-      <file name="StyledLink.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/styles/StyledLink/StyledLink.tsx">
-        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-        <line num="7" count="4" type="stmt"/>
-        <line num="10" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
+    <package name="src.components.styles.StyledBoxHashtag">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="StyledBoxHashtag.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/styles/StyledBoxHashtag/StyledBoxHashtag.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.styles.StyledBoxTitle">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="StyledBoxTitle.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/styles/StyledBoxTitle/StyledBoxTitle.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.styles.StyledRow">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="StyledRow.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/styles/StyledRow/StyledRow.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.styles.StyledSection">
-      <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="3" methods="4" coveredmethods="4"/>
+      <metrics statements="8" coveredstatements="8" conditionals="12" coveredconditionals="8" methods="7" coveredmethods="7"/>
       <file name="StyledSection.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/styles/StyledSection/StyledSection.tsx">
-        <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="3" methods="4" coveredmethods="4"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="11" count="2" type="cond" truecount="1" falsecount="1"/>
-        <line num="13" count="2" type="cond" truecount="1" falsecount="1"/>
-        <line num="16" count="2" type="cond" truecount="1" falsecount="1"/>
-        <line num="17" count="2" type="stmt"/>
+        <metrics statements="8" coveredstatements="8" conditionals="12" coveredconditionals="8" methods="7" coveredmethods="7"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="15" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="18" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="22" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="3" type="cond" truecount="2" falsecount="0"/>
       </file>
     </package>
-    <package name="src.components.styles.StyledTypedText">
-      <metrics statements="8" coveredstatements="8" conditionals="14" coveredconditionals="14" methods="7" coveredmethods="7"/>
-      <file name="StyledTypedText.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/styles/StyledTypedText/StyledTypedText.tsx">
-        <metrics statements="8" coveredstatements="8" conditionals="14" coveredconditionals="14" methods="7" coveredmethods="7"/>
-        <line num="9" count="4" type="stmt"/>
-        <line num="10" count="473" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="473" type="cond" truecount="2" falsecount="0"/>
-        <line num="12" count="473" type="cond" truecount="2" falsecount="0"/>
-        <line num="13" count="473" type="cond" truecount="2" falsecount="0"/>
-        <line num="14" count="473" type="cond" truecount="2" falsecount="0"/>
-        <line num="20" count="473" type="cond" truecount="2" falsecount="0"/>
-        <line num="34" count="473" type="cond" truecount="2" falsecount="0"/>
-      </file>
-    </package>
-    <package name="src.components.view.about-text">
-      <metrics statements="25" coveredstatements="25" conditionals="16" coveredconditionals="12" methods="5" coveredmethods="5"/>
-      <file name="AboutText.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/view/about-text/AboutText.tsx">
-        <metrics statements="25" coveredstatements="25" conditionals="16" coveredconditionals="12" methods="5" coveredmethods="5"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="17" count="3" type="stmt"/>
-        <line num="18" count="185" type="stmt"/>
-        <line num="20" count="185" type="stmt"/>
-        <line num="21" count="185" type="stmt"/>
-        <line num="23" count="185" type="stmt"/>
-        <line num="24" count="185" type="stmt"/>
-        <line num="26" count="185" type="stmt"/>
-        <line num="27" count="185" type="stmt"/>
-        <line num="29" count="185" type="stmt"/>
-        <line num="30" count="185" type="stmt"/>
-        <line num="32" count="185" type="stmt"/>
-        <line num="33" count="4" type="cond" truecount="2" falsecount="2"/>
-        <line num="34" count="4" type="stmt"/>
-        <line num="35" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="39" count="185" type="stmt"/>
-        <line num="85" count="185" type="stmt"/>
-        <line num="86" count="185" type="stmt"/>
-        <line num="88" count="185" type="cond" truecount="2" falsecount="0"/>
-        <line num="89" count="185" type="cond" truecount="2" falsecount="0"/>
-        <line num="90" count="185" type="cond" truecount="2" falsecount="0"/>
-        <line num="92" count="185" type="cond" truecount="1" falsecount="1"/>
-        <line num="95" count="185" type="stmt"/>
-        <line num="96" count="185" type="cond" truecount="1" falsecount="1"/>
-        <line num="106" count="185" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components.view.typed-text">
-      <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="7" methods="6" coveredmethods="6"/>
-      <file name="TypedText.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/view/typed-text/TypedText.tsx">
-        <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="7" methods="6" coveredmethods="6"/>
-        <line num="17" count="4" type="stmt"/>
-        <line num="27" count="473" type="stmt"/>
-        <line num="28" count="473" type="stmt"/>
-        <line num="30" count="473" type="stmt"/>
-        <line num="31" count="179" type="stmt"/>
-        <line num="35" count="8" type="stmt"/>
-        <line num="36" count="182" type="cond" truecount="2" falsecount="0"/>
-        <line num="37" count="3" type="stmt"/>
-        <line num="38" count="3" type="stmt"/>
-        <line num="39" count="3" type="stmt"/>
-        <line num="42" count="179" type="stmt"/>
-        <line num="44" count="179" type="stmt"/>
-        <line num="45" count="179" type="stmt"/>
-        <line num="48" count="8" type="cond" truecount="2" falsecount="0"/>
-        <line num="50" count="8" type="stmt"/>
-        <line num="51" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="55" count="473" type="stmt"/>
+    <package name="src.components.view.box-container">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="BoxContainer.tsx" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/components/view/box-container/BoxContainer.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.helpers">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <file name="commonFunctions.ts" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/helpers/commonFunctions.ts">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
       <file name="testHelpers.ts" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/helpers/testHelpers.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="3" count="18" type="stmt"/>
-        <line num="4" count="22" type="stmt"/>
-        <line num="5" count="22" type="stmt"/>
-        <line num="6" count="22" type="stmt"/>
-        <line num="9" count="18" type="stmt"/>
-        <line num="10" count="20" type="stmt"/>
-        <line num="11" count="20" type="stmt"/>
-        <line num="12" count="20" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.testdata">
-      <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="4"/>
-      <file name="mockIntersectionObserver.ts" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/testdata/mockIntersectionObserver.ts">
-        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="3"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="10" count="4" type="stmt"/>
-      </file>
-      <file name="mockQuery.ts" path="/Users/cianogralaigh/Documents/CodeRepositories/portfolio-2020/src/testdata/mockQuery.ts">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="52" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
       </file>
     </package>
   </project>

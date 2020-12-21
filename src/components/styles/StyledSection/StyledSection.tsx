@@ -4,6 +4,8 @@ interface StyledSectionProps {
   readonly backgroundColor?: string;
   readonly fontColor?: string;
   readonly vertical?: boolean;
+  readonly justify?: string;
+  readonly align?: string;
 }
 
 export const StyledSection = styled.section<StyledSectionProps>`
@@ -15,13 +17,13 @@ export const StyledSection = styled.section<StyledSectionProps>`
   display: flex;
   flex-direction: ${(props) => (props?.vertical ? 'column' : 'row')};
   font-family: ${(props) => props.theme.fonts.monaco};
-  align-items: center;
+  align-items: ${(props) => (props?.align ? props.align : 'center')};
   min-height: 85vh;
-  justify-content: center;
+  justify-content: ${(props) => (props?.justify ? props.justify : 'center')};
 
   @media (min-width: 1024px) {
     min-height: 80vh;
-    justify-content: center;
+    justify-content: ${(props) => (props?.justify ? props.justify : 'center')};
     margin-left: 2.5rem;
   }
 `;
