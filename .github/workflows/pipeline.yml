@@ -52,3 +52,4 @@ jobs:
           user_email: 'github-actions[bot]@users.noreply.github.com'
           github_token: ${{ secrets.GH_ACTIONS_DEPLOY_ACCCESS_TOKEN }}
           repository: ${{ github.repository }}
+          REACT_APP_GH_PA_TOKEN: ${{secrets.REACT_APP_GH_PA_TOKEN }}
