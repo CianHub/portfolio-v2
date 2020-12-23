@@ -1,47 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Particles from 'react-particles-js';
-import { getHashtag } from '../../../helpers/commonFunctions';
+import { cloneData } from '../../../helpers/commonFunctions';
+import {
+  getOptions,
+  getFilters,
+  displayProjects,
+  sortProjects,
+} from '../../../helpers/filterFunctions';
 import { GetRepos_viewer_repositories_nodes } from '../../../models/graphqL/GetRepos';
-import { StyledBoxButton } from '../../styles/StyledBoxButton/StyledBoxButton';
-import { StyledBoxDescription } from '../../styles/StyledBoxDescription/StyledBoxDescription';
-import { StyledHashtag } from '../../styles/StyledBoxHashtag/StyledBoxHashtag';
-import { StyledBoxTitle } from '../../styles/StyledBoxTitle/StyledBoxTitle';
 import { StyledRow } from '../../styles/StyledRow/StyledRow';
 import { StyledSection } from '../../styles/StyledSection/StyledSection';
 import Theme from '../../styles/theme';
-import { BoxContainer } from '../../view/box-container/BoxContainer';
+import { ProjectFilter } from '../../view/project-filter/ProjectFilter';
 
-const displayProjects = (
-  projects: (GetRepos_viewer_repositories_nodes | null)[] | null | undefined
-) => {
-  return projects?.map((repo: GetRepos_viewer_repositories_nodes | null) => {
-    return (
-      <BoxContainer key={repo?.url}>
-        <StyledBoxTitle>{repo?.name}</StyledBoxTitle>
-        <StyledHashtag theme={Theme}>
-          {getHashtag(repo?.languages?.edges)}
-        </StyledHashtag>
-        <StyledBoxDescription>{repo?.description}</StyledBoxDescription>
-        <span style={{ marginBottom: '1rem', fontSize: '0.8rem' }}>
-          Last Updated: {repo?.updatedAt.split('T')[0]}
-        </span>
-        <a
-          rel="noopener noreferrer"
-          target="_blank"
-          style={{ textDecoration: 'none', color: 'inherit' }}
-          href={repo?.url}
-        >
-          <StyledBoxButton theme={Theme}>View Repository &gt;</StyledBoxButton>
-        </a>
-      </BoxContainer>
-    );
-  });
-};
 interface Props {
   projects: (GetRepos_viewer_repositories_nodes | null)[] | null | undefined;
 }
 
 const Projects: React.FC<Props> = ({ projects }) => {
+  const options = getOptions(projects);
+  const sortingOptions = ['Oldest', 'Latest'];
+  const [filters, setFilters] = useState({
+    ...getFilters(cloneData(projects)),
+  });
+  const [sorting, setSorting] = useState('Oldest');
+
+  const handleFilter = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const value = event.target.value === 'true';
+    const name = event.target.name;
+    const newFilters = { ...filters, [name]: !value };
+    setFilters({ ...newFilters });
+  };
+
+  const handleSorting = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const value = event.target.value;
+    setSorting(value);
+  };
+
   return (
     <StyledSection
       role="Projects"
@@ -72,11 +67,24 @@ const Projects: React.FC<Props> = ({ projects }) => {
           backgroundColor: Theme.colors.black,
         }}
       ></Particles>
-      <h2 style={{ alignSelf: 'flex-start' }}>Projects:// </h2>
-      <p style={{ alignSelf: 'flex-start', marginBottom: '2rem' }}>
+      <h2 style={{ alignSelf: 'flex-start', marginBottom: '0.5rem' }}>
+        Projects://{' '}
+      </h2>
+      <span style={{ alignSelf: 'flex-start', marginBottom: '1rem' }}>
         A collection of my projects and their corresponding repositories.
-      </p>
-      <StyledRow>{displayProjects(projects)}</StyledRow>
+      </span>
+
+      <ProjectFilter
+        options={options}
+        sortingOptions={sortingOptions}
+        currentSorting={sorting}
+        handleSorting={handleSorting}
+        handleFilter={handleFilter}
+        filters={filters}
+      />
+      <StyledRow>
+        {displayProjects(sortProjects(cloneData(projects), sorting), filters)}
+      </StyledRow>
     </StyledSection>
   );
 };

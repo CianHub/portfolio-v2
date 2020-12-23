@@ -13,6 +13,7 @@ export const StyledBoxContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: all 0.5s;
 
   @media (min-width: 1024px) {
     margin-right: 1rem;
