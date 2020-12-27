@@ -14,7 +14,7 @@ import {
 import { GetRepos } from './models/graphqL/GetRepos';
 
 const App: React.FC = () => {
-  const { data, loading, error } = useQuery<GetRepos>(REPOS_QUERY, {
+  const { data, loading } = useQuery<GetRepos>(REPOS_QUERY, {
     variables: {
       firstRepo: 100,
       firstLang: 10,
@@ -22,7 +22,6 @@ const App: React.FC = () => {
   });
 
   if (loading) return <div>Loading...</div>;
-  if (error) return <div>{error.message}</div>;
 
   return (
     <BrowserRouter>
