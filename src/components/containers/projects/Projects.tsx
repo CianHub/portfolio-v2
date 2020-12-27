@@ -39,7 +39,7 @@ const Projects: React.FC<Props> = ({ projects }) => {
 
   return (
     <StyledSection
-      role="Projects"
+      role="section"
       id="projects"
       theme={Theme}
       backgroundColor={'transparent'}
@@ -68,7 +68,7 @@ const Projects: React.FC<Props> = ({ projects }) => {
         }}
       ></Particles>
       <h2 style={{ alignSelf: 'flex-start', marginBottom: '0.5rem' }}>
-        Projects://{' '}
+        Projects://
       </h2>
       <span style={{ alignSelf: 'flex-start', marginBottom: '1rem' }}>
         A collection of my projects and their corresponding repositories.
@@ -82,7 +82,7 @@ const Projects: React.FC<Props> = ({ projects }) => {
         handleFilter={handleFilter}
         filters={filters}
       />
-      <StyledRow>
+      <StyledRow role="rowgroup">
         {displayProjects(sortProjects(cloneData(projects), sorting), filters)}
       </StyledRow>
     </StyledSection>

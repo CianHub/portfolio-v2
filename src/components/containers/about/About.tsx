@@ -7,7 +7,7 @@ import Particles from 'react-particles-js';
 const About: React.FC = () => {
   return (
     <StyledSection
-      role="About"
+      role="section"
       id="about"
       theme={Theme}
       backgroundColor={'transparent'}

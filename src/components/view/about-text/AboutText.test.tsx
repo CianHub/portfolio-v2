@@ -7,7 +7,7 @@ import { act } from 'react-dom/test-utils';
 import { afterTest, beforeTest } from '../../../helpers/testHelpers';
 import { getAllByRole, getByRole, waitFor } from '@testing-library/react';
 import { IntersectionObserverStub } from '../../../testdata/mockIntersectionObserver';
-import { BrowserRouter, Router } from 'react-router-dom';
+import { Router } from 'react-router-dom';
 
 jest.setTimeout(50000);
 
@@ -36,7 +36,7 @@ describe('AboutText', () => {
 
     await waitFor(() => {
       expect(
-        getByRole(container as HTMLElement, 'AboutText')
+        getByRole(container as HTMLElement, 'article')
       ).toBeInTheDocument();
     });
   });
@@ -57,7 +57,7 @@ describe('AboutText', () => {
       async () => {
         const typedText = await getAllByRole(
           container as HTMLElement,
-          'TypedText'
+          'presentation'
         );
 
         expect(typedText.length).toBe(4);

@@ -32,7 +32,7 @@ describe('App', () => {
     );
 
     await waitFor(() => {
-      expect(getByRole(container, 'navbar')).toBeInTheDocument();
+      expect(getByRole(container, 'navigation')).toBeInTheDocument();
       expect(getByText(container, 'About')).toBeInTheDocument();
     });
   });

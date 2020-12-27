@@ -36,7 +36,9 @@ describe('About', () => {
     });
 
     await waitFor(() => {
-      expect(getByRole(container as HTMLElement, 'About')).toBeInTheDocument();
+      expect(
+        getByRole(container as HTMLElement, 'section')
+      ).toBeInTheDocument();
     });
   });
 });

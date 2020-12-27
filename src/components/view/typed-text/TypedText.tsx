@@ -55,7 +55,7 @@ export const TypedText: React.FC<Props> = ({
   return (
     <Fade>
       <StyledTypedText
-        role={'TypedText'}
+        role={'presentation'}
         showBlinker={!textTyped}
         firstLine={firstLine}
         fontColor={fontColor}

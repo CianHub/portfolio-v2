@@ -15,7 +15,7 @@ describe('Navbar', () => {
       </Router>
     );
 
-    expect(screen.getByRole('navbar')).toBeInTheDocument();
+    expect(screen.getByRole('navigation')).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'About' })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'Projects' })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'About' })).toHaveStyle({

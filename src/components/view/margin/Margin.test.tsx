@@ -25,6 +25,6 @@ describe('Margin', () => {
     act(() => {
       render(<Margin marginCount={18} />, container);
     });
-    expect(getByRole(container as HTMLElement, 'Margin')).toBeInTheDocument();
+    expect(getByRole(container as HTMLElement, 'landmark')).toBeInTheDocument();
   });
 });

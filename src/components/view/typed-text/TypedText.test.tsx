@@ -50,7 +50,7 @@ fdescribe('TypedText', () => {
     });
 
     await waitFor(() => {
-      const comp = getByRole(container as HTMLElement, 'TypedText');
+      const comp = getByRole(container as HTMLElement, 'presentation');
 
       expect(comp).toBeInTheDocument();
     });

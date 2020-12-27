@@ -104,7 +104,7 @@ export const AboutText: React.FC = () => {
     );
 
   return (
-    <div role="AboutText">
+    <div role="article">
       {typeText()}
       {showLink()}
     </div>

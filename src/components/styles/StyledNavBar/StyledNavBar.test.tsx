@@ -6,15 +6,15 @@ import { StyledNavbar } from './StyledNavbar';
 describe('StyledNavbar', () => {
   it('should render the component with the default styles', () => {
     render(
-      <StyledNavbar role="navbar" theme={Theme}>
+      <StyledNavbar role="navigation" theme={Theme}>
         Navbar
       </StyledNavbar>
     );
 
-    expect(screen.getByRole('navbar')).toHaveStyle({
+    expect(screen.getByRole('navigation')).toHaveStyle({
       color: Theme.colors.white,
     });
-    expect(screen.getByRole('navbar')).toHaveStyle({
+    expect(screen.getByRole('navigation')).toHaveStyle({
       backgroundColor: Theme.colors.black,
     });
   });
@@ -22,7 +22,7 @@ describe('StyledNavbar', () => {
   it('should render the component with the prop styles', () => {
     render(
       <StyledNavbar
-        role="navbar"
+        role="navigation"
         theme={Theme}
         backgroundColor={Theme.colors.green}
         fontColor={Theme.colors.blue}
@@ -31,10 +31,10 @@ describe('StyledNavbar', () => {
       </StyledNavbar>
     );
 
-    expect(screen.getByRole('navbar')).toHaveStyle({
+    expect(screen.getByRole('navigation')).toHaveStyle({
       color: Theme.colors.blue,
     });
-    expect(screen.getByRole('navbar')).toHaveStyle({
+    expect(screen.getByRole('navigation')).toHaveStyle({
       backgroundColor: Theme.colors.green,
     });
   });

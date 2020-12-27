@@ -25,9 +25,10 @@ export const ProjectFilter: React.FC<Props> = ({
   const getCheckboxes = () => {
     return options.map((option: string) => {
       return (
-        <StyledCheckBoxContainer key={option}>
+        <StyledCheckBoxContainer key={option} role="menuitem">
           #{option}
           <input
+            aria-label={option}
             type="checkbox"
             id={option}
             name={option}
@@ -35,7 +36,6 @@ export const ProjectFilter: React.FC<Props> = ({
             onChange={($event) => handleFilter($event)}
             defaultChecked={filters[option]}
           />
-          <span />
         </StyledCheckBoxContainer>
       );
     });
@@ -52,8 +52,9 @@ export const ProjectFilter: React.FC<Props> = ({
   };
 
   return (
-    <StyledProjectFilter>
+    <StyledProjectFilter role="form">
       <StyledSortingSelect
+        aria-label="sort-projects"
         theme={Theme}
         name="sorting"
         value={currentSorting}
@@ -61,7 +62,9 @@ export const ProjectFilter: React.FC<Props> = ({
       >
         {getOptions()}
       </StyledSortingSelect>
-      <StyledCheckBoxRow theme={Theme}>{getCheckboxes()}</StyledCheckBoxRow>
+      <StyledCheckBoxRow theme={Theme} role="menubar">
+        {getCheckboxes()}
+      </StyledCheckBoxRow>
     </StyledProjectFilter>
   );
 };

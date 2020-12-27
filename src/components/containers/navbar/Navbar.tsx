@@ -43,7 +43,7 @@ export const Navbar: React.FC = () => {
   };
 
   return (
-    <StyledNavbar theme={Theme} id="navbar" role="navbar">
+    <StyledNavbar theme={Theme} id="navbar" role="navigation">
       {generateNavLinks(navLinks)}
     </StyledNavbar>
   );

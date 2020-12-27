@@ -15,7 +15,7 @@ export const Margin: React.FC<Props> = ({ marginCount }) => {
 
   return (
     <StyledMargin
-      role="Margin"
+      role="landmark"
       theme={Theme}
       fontColor={url === '/' ? '' : Theme.colors.black}
     >
