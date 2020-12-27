@@ -8,9 +8,11 @@ This project is a replacement for my previous personal website.
 
 ## Design
 
-The application design outlined in the mock-ups utilise a minimal responsive design.
+The application design outlined in the mock-ups utilise a minimal mobile-first responsive design.
 
-The design mainly uses the Monaco and Roboto fonts while the color pallette for the application was selected to give the feel of a code editor and compliment each other well.
+Although the final design deviates from the mock ups they were created as a sort of base from which the main design could evolve from.
+
+The core elements of the design mainly uses the Monaco and Roboto fonts while the color pallette for the application was selected to give the feel of a code editor and compliment each other well.
 
 For reference these are:
 
@@ -37,3 +39,7 @@ The pipeline is run with GitHub Actions and executes the following:
 <li>Maintainability and quality checked by Code Climate</li>
 <li>Build and deployment are checked by running the commands</li>
 </ul>
+
+# Accessibility
+
+The application was designed to be as accessible as possible. Some of the features implemented include specifying aria-roles and wai-aria compliant roles aswell as contrasting colors.
