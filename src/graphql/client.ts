@@ -7,7 +7,7 @@ import {
 const client: ApolloClient<NormalizedCacheObject> = new ApolloClient({
   uri: 'https://api.github.com/graphql',
   headers: {
-    Authorization: `bearer ${process.env.REACT_APP_GH_PA_TOKEN}`,
+    Authorization: `Bearer ${process.env.REACT_APP_GH_PA_TOKEN}`,
   },
   cache: new InMemoryCache(),
 });
