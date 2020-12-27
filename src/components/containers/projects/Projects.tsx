@@ -7,6 +7,7 @@ import {
   displayProjects,
   sortProjects,
 } from '../../../helpers/filterFunctions';
+import { FilterType } from '../../../models/FilterType.model';
 import { GetRepos_viewer_repositories_nodes } from '../../../models/graphqL/GetRepos';
 import { StyledRow } from '../../styles/StyledRow/StyledRow';
 import { StyledSection } from '../../styles/StyledSection/StyledSection';
@@ -20,15 +21,15 @@ interface Props {
 const Projects: React.FC<Props> = ({ projects }) => {
   const options = getOptions(projects);
   const sortingOptions = ['Oldest', 'Latest'];
-  const [filters, setFilters] = useState({
+  const [filters, setFilters] = useState<FilterType>({
     ...getFilters(cloneData(projects)),
   });
   const [sorting, setSorting] = useState('Oldest');
 
   const handleFilter = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const value = event.target.value === 'true';
+    const value = event.target.checked;
     const name = event.target.name;
-    const newFilters = { ...filters, [name]: !value };
+    const newFilters = { ...filters, [name]: value };
     setFilters({ ...newFilters });
   };
 

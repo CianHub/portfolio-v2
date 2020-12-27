@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 
 import { act } from 'react-dom/test-utils';
-import { getAllByRole, getByRole, waitFor } from '@testing-library/react';
+import { getByRole, waitFor } from '@testing-library/react';
 import { afterTest, beforeTest } from '../../helpers/testHelpers';
 import { AnimationDoneContextProvider } from './AnimationDoneContextProvider';
 

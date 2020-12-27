@@ -2,7 +2,6 @@ import React from 'react';
 import { render } from 'react-dom';
 import Theme from '../../styles/theme';
 import { StyledLink } from './StyledLink';
-import { Link } from 'react-router-dom';
 import { afterTest, beforeTest } from '../../../helpers/testHelpers';
 import { act } from 'react-dom/test-utils';
 import { getByRole, waitFor } from '@testing-library/react';

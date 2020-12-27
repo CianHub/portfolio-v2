@@ -1,4 +1,5 @@
 import React from 'react';
+import { FilterType } from '../../../models/FilterType.model';
 import { StyledCheckBoxContainer } from '../../styles/StyledCheckBoxContainer/StyledCheckBoxContainer';
 import { StyledCheckBoxRow } from '../../styles/StyledCheckBoxRow/StyledCheckBoxRow';
 import { StyledProjectFilter } from '../../styles/StyledProjectFilter/StyledProjectFilter';
@@ -8,7 +9,7 @@ import Theme from '../../styles/theme';
 interface Props {
   options: string[];
   sortingOptions: string[];
-  filters: any;
+  filters: FilterType;
   currentSorting: string;
   handleFilter: (event: React.ChangeEvent<HTMLInputElement>) => void;
   handleSorting: (event: React.ChangeEvent<HTMLSelectElement>) => void;
@@ -32,9 +33,8 @@ export const ProjectFilter: React.FC<Props> = ({
             type="checkbox"
             id={option}
             name={option}
-            value={filters[option]}
             onChange={($event) => handleFilter($event)}
-            defaultChecked={filters[option]}
+            defaultChecked={filters[option as keyof FilterType]}
           />
         </StyledCheckBoxContainer>
       );
