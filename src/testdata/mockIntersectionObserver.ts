@@ -1,11 +1,11 @@
 export class IntersectionObserverStub {
-  get root() {
+  get root(): boolean {
     return true;
   }
-  takeRecords() {}
-  observe() {}
-  unobserve() {}
-  disconnect() {}
+  takeRecords(): void {}
+  observe(): void {}
+  unobserve(): void {}
+  disconnect(): void {}
 }
 jest.doMock('intersection-observer-mock', () => IntersectionObserverStub, {
   virtual: true,

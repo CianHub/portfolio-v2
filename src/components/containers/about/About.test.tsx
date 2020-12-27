@@ -5,7 +5,6 @@ import { render } from 'react-dom';
 import { act } from 'react-dom/test-utils';
 import { afterTest, beforeTest } from '../../../helpers/testHelpers';
 import { getByRole, waitFor } from '@testing-library/react';
-import { Fade } from 'react-awesome-reveal';
 import { IntersectionObserverStub } from '../../../testdata/mockIntersectionObserver';
 
 let container: HTMLElement | null;

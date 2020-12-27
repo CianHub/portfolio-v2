@@ -6,6 +6,7 @@ import { StyledHashtag } from '../components/styles/StyledBoxHashtag/StyledBoxHa
 import { StyledBoxTitle } from '../components/styles/StyledBoxTitle/StyledBoxTitle';
 import Theme from '../components/styles/theme';
 import { BoxContainer } from '../components/view/box-container/BoxContainer';
+import { FilterType } from '../models/FilterType.model';
 import { GetRepos_viewer_repositories_nodes } from '../models/graphqL/GetRepos';
 import {
   getHashtag,
@@ -15,7 +16,7 @@ import {
 
 export const getOptions = (
   projects: (GetRepos_viewer_repositories_nodes | null)[] | null | undefined
-) => {
+): string[] => {
   const languages: string[] = [];
   projects?.forEach((repo: GetRepos_viewer_repositories_nodes | null) =>
     getLanguage(repo?.languages?.edges)?.forEach((language: string) =>
@@ -44,18 +45,20 @@ export const sortProjects = (
 
 export const getFilters = (
   projects: (GetRepos_viewer_repositories_nodes | null)[] | null | undefined
-) => {
-  const options: any = {};
+): FilterType => {
+  const options: FilterType = {};
   getOptions(projects)
     .filter(makeStrArrayValuesUnique)
-    .forEach((val: string) => (options[val] = true));
+    .forEach((val: string) => {
+      options[val as keyof FilterType] = true;
+    });
 
   return options;
 };
 
 export const displayProjects = (
   projects: (GetRepos_viewer_repositories_nodes | null)[] | null | undefined,
-  filters: any
+  filters: FilterType
 ): JSX.Element[] | undefined => {
   const filteredProjects = filterProjects(projects, filters);
 
@@ -96,8 +99,8 @@ export const displayProjects = (
 
 export const filterProjects = (
   projects: (GetRepos_viewer_repositories_nodes | null)[] | null | undefined,
-  filters: any
-) => {
+  filters: FilterType
+): (GetRepos_viewer_repositories_nodes | null)[] | undefined => {
   return projects?.filter((project) => {
     const lang = getLanguage(project?.languages?.edges);
     const filterParams = getFiltersToApply(filters);
@@ -112,7 +115,9 @@ export const filterProjects = (
   });
 };
 
-export const getFiltersToApply = (filters: any) => {
+export const getFiltersToApply = (filters: FilterType): string[] => {
   const keys = Object.keys(filters);
-  return keys.filter((key: string) => filters[key] === false);
+  return keys.filter(
+    (key: string) => filters[key as keyof FilterType] === false
+  );
 };

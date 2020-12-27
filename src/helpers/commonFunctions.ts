@@ -5,9 +5,9 @@ export const getHashtag = (
     | (GetRepos_viewer_repositories_nodes_languages_edges | null)[]
     | null
     | undefined
-) => {
+): string => {
   const text = edges?.map((edge) => `#${edge?.node.name}`);
-  return text?.join(' ');
+  return text?.join(' ') || '';
 };
 
 export const getLanguage = (
@@ -15,8 +15,8 @@ export const getLanguage = (
     | (GetRepos_viewer_repositories_nodes_languages_edges | null)[]
     | null
     | undefined
-) => {
-  const text = edges?.map((edge) => `${edge?.node.name}`);
+): string[] => {
+  const text = edges?.map((edge) => `${edge?.node.name}`) || [''];
   return text;
 };
 
@@ -24,6 +24,7 @@ export const makeStrArrayValuesUnique = (
   value: string,
   index: number,
   self: string[]
-) => self.indexOf(value) === index;
+): boolean => self.indexOf(value) === index;
 
-export const cloneData = (data: any): any => JSON.parse(JSON.stringify(data));
+export const cloneData = (data: unknown): any =>
+  JSON.parse(JSON.stringify(data));
