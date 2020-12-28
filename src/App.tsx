@@ -1,5 +1,5 @@
 import { useQuery } from '@apollo/client';
-import React, { Suspense } from 'react';
+import React, { Suspense, useEffect, useState } from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 
 import './App.css';
@@ -11,17 +11,41 @@ import {
   LazyBlogPost,
   LazyProjects,
 } from './helpers/lazyLoading';
-import { GetRepos } from './models/graphqL/GetRepos';
+import {
+  GetRepos,
+  GetRepos_viewer_repositories_nodes,
+} from './models/graphqL/GetRepos';
 
 const App: React.FC = () => {
-  const { data, loading } = useQuery<GetRepos>(REPOS_QUERY, {
+  const [jsonData, setJsonData] = useState<
+    GetRepos_viewer_repositories_nodes[]
+  >([]);
+  const { data, error, loading } = useQuery<GetRepos>(REPOS_QUERY, {
     variables: {
       firstRepo: 100,
       firstLang: 10,
     },
   });
 
-  if (loading) return <div>Loading...</div>;
+  const getJsonData = async () => {
+    const response = await fetch('data.json', {
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+    });
+    await response
+      .json()
+      .then((jsonProjects: GetRepos_viewer_repositories_nodes[]) =>
+        setJsonData(jsonProjects)
+      );
+  };
+
+  useEffect(() => {
+    getJsonData();
+  }, []);
+
+  const projectData = error ? jsonData : data?.viewer?.repositories?.nodes;
 
   return (
     <HashRouter>
@@ -39,7 +63,7 @@ const App: React.FC = () => {
                 <LazyBlog />
               </Route>
               <Route exact path="/projects">
-                <LazyProjects projects={data?.viewer?.repositories?.nodes} />
+                <LazyProjects projects={projectData} showLoading={loading} />
               </Route>
               <Route path="/">
                 <LazyAbout />
