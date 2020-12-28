@@ -40,6 +40,6 @@ The pipeline is run with GitHub Actions and executes the following:
 <li>Build and deployment are checked by running the commands</li>
 </ul>
 
-# Accessibility
+## Accessibility
 
 The application was designed to be as accessible as possible. Some of the features implemented include specifying aria-roles and wai-aria compliant roles aswell as contrasting colors.
