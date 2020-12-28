@@ -1,0 +1,2998 @@
+[
+  {
+    "__typename": "Repository",
+    "name": "the-monkees-website",
+    "description": "This website offers both existing and potential fans of a band or musician  (The Monkees in this case) a way to see and hear songs from the bands back catalog and find out about any new material as it becomes available. The site provides information and links to buy tickets for the bands upcoming concerts as well as a method of booking the band for private events. Fans can learn about the individual members of The Monkees through the band section and provides links to the bands social media and a newsletter sign-up option.",
+    "url": "https://github.com/CianHub/the-monkees-website",
+    "updatedAt": "2019-07-29T12:11:57Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "memory-game",
+    "description": " SIMON is a game that creates sequences of sounds and lights and requires a player to repeat the sequence. If the player succeeds, the sequence becomes progressively longer and more complex until the game ends at level 10. The game consists of two modes normal and strict, on strict mode if the player makes a mistake they must restart from level 1.",
+    "url": "https://github.com/CianHub/memory-game",
+    "updatedAt": "2018-08-17T12:53:57Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "guessing-game",
+    "description": " Riddle-Me-This is a web application game that asks players to guess the answer to a riddle. The player is presented with text that contains the riddle. Players enter their answer into a textarea and submit their answer using a form. If a player guesses correctly, they are redirected to the next riddle. If a player guesses incorrectly, their incorrect guess is stored and printed below the riddle. Multiple players can play an instance of the game at the same time. Users are identified by a unique username. At the end of each game a leaderboard is displayed that ranks top scores for all users.",
+    "url": "https://github.com/CianHub/guessing-game",
+    "updatedAt": "2018-10-03T12:00:07Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "digital-cookbook",
+    "description": "Digital Cookbook is a responsive web application that allows users to create, give feedback on, update, delete and read cooking recipes.",
+    "url": "https://github.com/CianHub/digital-cookbook",
+    "updatedAt": "2020-08-08T15:41:52Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "issue-tracker",
+    "description": " This application is an issue tracker/new feature request platform for a theoretical app. The 'Great Idea Issue Tracker' is a responsive web application that allows users to create, upvote, pay for, comment on, update, view progress on, delete and read tickets containing bugs or new feature suggestions. The app was developed as a platform from which an existing platform can be improved and a team can receive constructive criticism and suggestions from their customers.",
+    "url": "https://github.com/CianHub/issue-tracker",
+    "updatedAt": "2018-08-17T13:32:56Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "javascript-piano",
+    "description": "The JavaScript Piano is a simple, responsive web application that allows users to play the chords in the C Major musical scale using either their keyboard or by click the buttons on screen.",
+    "url": "https://github.com/CianHub/javascript-piano",
+    "updatedAt": "2019-02-19T23:24:43Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "javascript-clock",
+    "description": "Javascript Clock is a simple web application that displays the time in real time on a javascript clock-face.",
+    "url": "https://github.com/CianHub/javascript-clock",
+    "updatedAt": "2018-08-25T22:36:00Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "weather-finder-app",
+    "description": "Weather Finder is a responsive web application that finds the current weather conditions in a city.",
+    "url": "https://github.com/CianHub/weather-finder-app",
+    "updatedAt": "2018-10-02T20:55:25Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "react-particlejs-animation",
+    "description": "A simple animation made with React.js and Particle.js.",
+    "url": "https://github.com/CianHub/react-particlejs-animation",
+    "updatedAt": "2019-05-21T15:48:22Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "my-work",
+    "description": "This website is primarily designed to host projects and provide information, while also serving as an example of my work and design aesthetic.",
+    "url": "https://github.com/CianHub/my-work",
+    "updatedAt": "2018-10-03T12:45:53Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "css-3d-button",
+    "description": "A quick CSS snippet to create the illusion of a 3D button element.",
+    "url": "https://github.com/CianHub/css-3d-button",
+    "updatedAt": "2018-10-09T11:34:39Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "interactive-thumbnail",
+    "description": "A small snippet creating interactive thumbnails in an image gallery with CSS.",
+    "url": "https://github.com/CianHub/interactive-thumbnail",
+    "updatedAt": "2018-10-09T13:53:21Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "css-loading-icon",
+    "description": "A quick code snippet for creating an animated loading icon with CSS.",
+    "url": "https://github.com/CianHub/css-loading-icon",
+    "updatedAt": "2018-10-10T13:30:15Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "responsive-navbar-flexbox",
+    "description": "A quick code snippet for creating a responsive navbar with CSS and Flexbox.",
+    "url": "https://github.com/CianHub/responsive-navbar-flexbox",
+    "updatedAt": "2020-04-03T21:04:13Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "holy-grail-css-challenge",
+    "description": "A solution to the Holy Grail CSS layout with Flexbox.",
+    "url": "https://github.com/CianHub/holy-grail-css-challenge",
+    "updatedAt": "2018-10-10T23:57:14Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "startup-site-exercise",
+    "description": "An example of a start-up website built with Flexbox.",
+    "url": "https://github.com/CianHub/startup-site-exercise",
+    "updatedAt": "2018-10-11T14:22:46Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "random-user-generator",
+    "description": "A simple app for generating random users.",
+    "url": "https://github.com/CianHub/random-user-generator",
+    "updatedAt": "2018-10-12T19:29:35Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "simpsons-quote-generator-ajax",
+    "description": "An AJAX web app which generates Simpsons quotes using four different ways of fetching API data.",
+    "url": "https://github.com/CianHub/simpsons-quote-generator-ajax",
+    "updatedAt": "2018-10-12T23:13:30Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "todolist-api",
+    "description": "This project is a full-stack web app and API for making a to-do list.",
+    "url": "https://github.com/CianHub/todolist-api",
+    "updatedAt": "2018-10-17T19:16:38Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "guess-the-password",
+    "description": "A simple web app where the user is given a list of potential passwords and tries to guess the correct one.",
+    "url": "https://github.com/CianHub/guess-the-password",
+    "updatedAt": "2018-10-18T23:22:44Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "card-matching-game-react",
+    "description": "A simple card matching game built with React.",
+    "url": "https://github.com/CianHub/card-matching-game-react",
+    "updatedAt": "2018-10-28T15:20:57Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "angular-reactive-forms-validation",
+    "description": "A simple exercise to practice validating reactive forms in Angular. ",
+    "url": "https://github.com/CianHub/angular-reactive-forms-validation",
+    "updatedAt": "2018-11-18T01:25:44Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "angular-docs-testing",
+    "description": "A project I am using to improve my testing skillset for Angular 2 apps. ",
+    "url": "https://github.com/CianHub/angular-docs-testing",
+    "updatedAt": "2018-11-25T13:55:20Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "shopping-list-recipe-app",
+    "description": "This project was built as a way to learn Angular and become more familiar with it's functionality and features.",
+    "url": "https://github.com/CianHub/shopping-list-recipe-app",
+    "updatedAt": "2019-08-20T14:45:23Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "breathing-guide-observables",
+    "description": "This simple web app is a breathing guide for meditation practice and was made as a practice exercise in using Angular2, animations and Observables.",
+    "url": "https://github.com/CianHub/breathing-guide-observables",
+    "updatedAt": "2019-03-02T14:41:39Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "web-vr-threejs-sky-app",
+    "description": "A simple web app made with webVR and Three.js to experiment with making a virtual reality web application.",
+    "url": "https://github.com/CianHub/web-vr-threejs-sky-app",
+    "updatedAt": "2019-01-26T22:01:57Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "shopping-list-recipe-app-redux-pattern",
+    "description": "An alternate version of the shopping-list-recipe-app project which uses a redux pattern with ngrx instead of an observer pattern for state management.",
+    "url": "https://github.com/CianHub/shopping-list-recipe-app-redux-pattern",
+    "updatedAt": "2019-08-20T14:49:10Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "discord-translator-chat-bot",
+    "description": "A Discord chatbot that detects if a message is in English and if not then translates that message to English.",
+    "url": "https://github.com/CianHub/discord-translator-chat-bot",
+    "updatedAt": "2019-03-02T14:29:29Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "node-js-server",
+    "description": "A project for learning Node JS and exploring its core functionality",
+    "url": "https://github.com/CianHub/node-js-server",
+    "updatedAt": "2019-04-13T23:23:38Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "nodejs-practice-server",
+    "description": "A server built to practice creating NodeJS servers.",
+    "url": "https://github.com/CianHub/nodejs-practice-server",
+    "updatedAt": "2019-04-18T13:35:11Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "learning-expressjs",
+    "description": "A project for learning how to build a server with ExpressJS",
+    "url": "https://github.com/CianHub/learning-expressjs",
+    "updatedAt": "2019-04-24T19:20:12Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "expressjs-practice-assignment",
+    "description": "The solution to an assignment from an ExpressJS Udemy course.",
+    "url": "https://github.com/CianHub/expressjs-practice-assignment",
+    "updatedAt": "2019-04-18T14:37:39Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "practicing-express-js",
+    "description": "A project containing an assignment I've completed to practice using expressJS",
+    "url": "https://github.com/CianHub/practicing-express-js",
+    "updatedAt": "2019-04-24T19:21:10Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "react-course-assignment-one",
+    "description": "The solution to an assignment completed as part of a React course.",
+    "url": "https://github.com/CianHub/react-course-assignment-one",
+    "updatedAt": "2019-05-26T16:14:19Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "react-course-assignment-two",
+    "description": "The solution to an assignment completed as part of a course on React",
+    "url": "https://github.com/CianHub/react-course-assignment-two",
+    "updatedAt": "2019-07-18T10:32:30Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "burger-builder-app-react",
+    "description": "This project  is a simple application designed to improve my knowledge of and utilise the core features of React, Redux, React-Router and Firebase and implement common uses of its functionality.",
+    "url": "https://github.com/CianHub/burger-builder-app-react",
+    "updatedAt": "2019-07-29T15:49:37Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "practicing-react-redux",
+    "description": "A simple project completed to practice implementing redux in a react.js application.",
+    "url": "https://github.com/CianHub/practicing-react-redux",
+    "updatedAt": "2019-07-17T15:30:24Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "react-course-assignment-three",
+    "description": "This project was completed as part of a course on react.js",
+    "url": "https://github.com/CianHub/react-course-assignment-three",
+    "updatedAt": "2019-07-15T13:01:59Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "practicing-react-hooks",
+    "description": "A project for experimenting with React hooks",
+    "url": "https://github.com/CianHub/practicing-react-hooks",
+    "updatedAt": "2019-07-25T11:57:05Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "burger-builder-app-react-hooks",
+    "description": "This project is an alternate version of https://github.com/CianHub/burger-builder-app-react adapted to use functional React components, redux-thunk and React Hooks",
+    "url": "https://github.com/CianHub/burger-builder-app-react-hooks",
+    "updatedAt": "2019-07-29T16:27:53Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "practicing-with-react-and-next.js",
+    "description": "A simple project I created to explore and try out next.js",
+    "url": "https://github.com/CianHub/practicing-with-react-and-next.js",
+    "updatedAt": "2019-07-29T10:37:11Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "practicing-with-webpack",
+    "description": "A basic project for experimenting with Webpack and Babel configurations",
+    "url": "https://github.com/CianHub/practicing-with-webpack",
+    "updatedAt": "2019-07-30T10:27:36Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "practicing-with-animations-in-react",
+    "description": "A basic project for practicing animations in a React project",
+    "url": "https://github.com/CianHub/practicing-with-animations-in-react",
+    "updatedAt": "2019-07-30T15:46:46Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "guardian-archive-search",
+    "description": "A basic application built with React and complimentary libraries for practice. This application allows the user to search articles from the Guardians archive and get the latest news.",
+    "url": "https://github.com/CianHub/guardian-archive-search",
+    "updatedAt": "2019-08-06T12:40:16Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "practicing-with-angular-elements",
+    "description": "A simple project for practicing and exploring Angular Elements.",
+    "url": "https://github.com/CianHub/practicing-with-angular-elements",
+    "updatedAt": "2019-08-19T13:12:42Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "practicing-with-angular-animations",
+    "description": "A simple project for exploring the animation functionality included with Angular.",
+    "url": "https://github.com/CianHub/practicing-with-angular-animations",
+    "updatedAt": "2019-08-20T12:50:16Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "practicing-with-angular-universal",
+    "description": "A simple hello world project for exploring the features in Angular Universal.",
+    "url": "https://github.com/CianHub/practicing-with-angular-universal",
+    "updatedAt": "2019-08-20T14:40:33Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "starter-web",
+    "description": "A project for practicing Git commands",
+    "url": "https://github.com/CianHub/starter-web",
+    "updatedAt": "2019-08-23T11:28:13Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "basic-node-js-server",
+    "description": "A basic node server.",
+    "url": "https://github.com/CianHub/basic-node-js-server",
+    "updatedAt": "2020-01-03T19:12:49Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "learning-backend-dev-with-node",
+    "description": "A project for learning back-end development with NodeJS",
+    "url": "https://github.com/CianHub/learning-backend-dev-with-node",
+    "updatedAt": "2020-06-14T00:56:15Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "learning-blockchain",
+    "description": "A Python refresher project for revising Python and learning the blockchain model",
+    "url": "https://github.com/CianHub/learning-blockchain",
+    "updatedAt": "2020-06-15T15:42:10Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "python-revision-assignment-1",
+    "description": "The solution to an assignment completed as part of my Python revision.",
+    "url": "https://github.com/CianHub/python-revision-assignment-1",
+    "updatedAt": "2020-05-20T09:01:00Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "python-revision-assignment-2",
+    "description": "The solution to an assignment completed as part of my Python revision.",
+    "url": "https://github.com/CianHub/python-revision-assignment-2",
+    "updatedAt": "2020-05-20T12:56:40Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "python-revision-assignment-3",
+    "description": "The solution to an assignment completed as part of my Python revision.",
+    "url": "https://github.com/CianHub/python-revision-assignment-3",
+    "updatedAt": "2020-05-22T18:35:25Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "revision-python-assignment-4",
+    "description": "The solution to an assignment completed as part of my Python revision.",
+    "url": "https://github.com/CianHub/revision-python-assignment-4",
+    "updatedAt": "2020-05-23T17:11:28Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "python-revision-assignment-5",
+    "description": "The solution to an assignment completed as part of my Python revision.",
+    "url": "https://github.com/CianHub/python-revision-assignment-5",
+    "updatedAt": "2020-05-24T21:24:12Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "python-revision-assignment-6",
+    "description": "The solution to an assignment completed as part of my Python revision.",
+    "url": "https://github.com/CianHub/python-revision-assignment-6",
+    "updatedAt": "2020-05-25T18:47:12Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "python-revision-assignment-7",
+    "description": "The solution to an assignment completed as part of my Python revision.",
+    "url": "https://github.com/CianHub/python-revision-assignment-7",
+    "updatedAt": "2020-05-27T18:22:26Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "java-basics",
+    "description": "A project for learning the basics of Java",
+    "url": "https://github.com/CianHub/java-basics",
+    "updatedAt": "2020-06-04T16:44:23Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Java",
+            "color": "#b07219"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "java-primitives-basics",
+    "description": "A project for learning about Java primitives",
+    "url": "https://github.com/CianHub/java-primitives-basics",
+    "updatedAt": "2020-06-04T21:47:41Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Java",
+            "color": "#b07219"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "learning-java-eliza-program",
+    "description": "A simple Eliza program for learning Java",
+    "url": "https://github.com/CianHub/learning-java-eliza-program",
+    "updatedAt": "2020-06-06T15:55:27Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Java",
+            "color": "#b07219"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "basic-java-number-game",
+    "description": "A basic number game for learning Java",
+    "url": "https://github.com/CianHub/basic-java-number-game",
+    "updatedAt": "2020-06-04T23:11:02Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Java",
+            "color": "#b07219"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "user-input-with-java",
+    "description": "A project for learning user input with Java",
+    "url": "https://github.com/CianHub/user-input-with-java",
+    "updatedAt": "2020-06-05T11:49:16Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Java",
+            "color": "#b07219"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "java-string-formating",
+    "description": "A simple project for learning string formatting in Java",
+    "url": "https://github.com/CianHub/java-string-formating",
+    "updatedAt": "2020-06-05T12:11:59Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Java",
+            "color": "#b07219"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "java-class-basics",
+    "description": "A simple project for learning the basics of Java classes",
+    "url": "https://github.com/CianHub/java-class-basics",
+    "updatedAt": "2020-06-05T16:59:18Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Java",
+            "color": "#b07219"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "service-workers-with-Angular",
+    "description": "A project for building a service worker with Angular 9",
+    "url": "https://github.com/CianHub/service-workers-with-Angular",
+    "updatedAt": "2020-06-08T15:43:56Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "deno-hello-world-server",
+    "description": "A quick Hello World app made with Deno",
+    "url": "https://github.com/CianHub/deno-hello-world-server",
+    "updatedAt": "2020-06-14T00:51:53Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "deno-rest-api",
+    "description": "A simple REST API made with Deno, PostgreSQL and Oak",
+    "url": "https://github.com/CianHub/deno-rest-api",
+    "updatedAt": "2020-06-14T18:45:52Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "express-js-and-mySQL",
+    "description": "A simple REST API with Express.js and mySQL",
+    "url": "https://github.com/CianHub/express-js-and-mySQL",
+    "updatedAt": "2020-06-16T10:02:31Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "experimenting-with-css-grid",
+    "description": "A small project for experimenting with CSS Grid",
+    "url": "https://github.com/CianHub/experimenting-with-css-grid",
+    "updatedAt": "2020-06-16T11:09:01Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "css-grid-image-span",
+    "description": "A quick project for playing with a CSS grid image span",
+    "url": "https://github.com/CianHub/css-grid-image-span",
+    "updatedAt": "2020-06-16T11:47:58Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "spacex-launch-app",
+    "description": "An app for learning GraphQL and Apollo using the SpaceX API for data",
+    "url": "https://github.com/CianHub/spacex-launch-app",
+    "updatedAt": "2020-06-18T12:40:10Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "entertainment-tracker",
+    "description": "A web app for tracking the entertainment consumption of the user",
+    "url": "https://github.com/CianHub/entertainment-tracker",
+    "updatedAt": "2020-07-03T17:14:35Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "breath-guide",
+    "description": "A simple visual guide for a breathing exercise.",
+    "url": "https://github.com/CianHub/breath-guide",
+    "updatedAt": "2020-07-17T18:51:35Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "knapsack-algorithm-solution",
+    "description": "A JavaScript algorithm for solving the knapsack problem",
+    "url": "https://github.com/CianHub/knapsack-algorithm-solution",
+    "updatedAt": "2020-08-03T21:52:48Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "python-face-finder",
+    "description": "A project for experimenting with using Python for facial recognition",
+    "url": "https://github.com/CianHub/python-face-finder",
+    "updatedAt": "2020-08-10T21:23:34Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "python-speech-utility",
+    "description": "An application for performing tasks such as online searches using voice input",
+    "url": "https://github.com/CianHub/python-speech-utility",
+    "updatedAt": "2020-08-11T18:56:11Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "python-tapology-events-web-scraper",
+    "description": "A basic webscraper to get the upcoming major MMA events from Tapology and add them to a spreadsheet with title and date",
+    "url": "https://github.com/CianHub/python-tapology-events-web-scraper",
+    "updatedAt": "2020-08-11T20:45:09Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "100daysofpython-day1",
+    "description": "For the first day I'll be exploring datetime and timedeltas in Python",
+    "url": "https://github.com/CianHub/100daysofpython-day1",
+    "updatedAt": "2020-08-14T19:47:14Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "python100daysofcode-day2",
+    "description": "A solution for finding the first and last system shutdown initialise events from a log file.",
+    "url": "https://github.com/CianHub/python100daysofcode-day2",
+    "updatedAt": "2020-08-14T21:59:02Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "100DaysOfPython-day3",
+    "description": "A simple stopwatch application ",
+    "url": "https://github.com/CianHub/100DaysOfPython-day3",
+    "updatedAt": "2020-08-18T19:44:41Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "100DaysofPythonDay5",
+    "description": "Experimented with the Collections libraries and used it to extract the top 20 highest rated directors based on a criteria from a CSV file",
+    "url": "https://github.com/CianHub/100DaysofPythonDay5",
+    "updatedAt": "2020-08-18T19:42:04Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "100DaysOfPythonDay6",
+    "description": "An example of the Collections library being used to extract the top 10 highest rates of COVID-19 per 1000 people by county in Ireland",
+    "url": "https://github.com/CianHub/100DaysOfPythonDay6",
+    "updatedAt": "2020-08-19T21:26:02Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "100DaysOfPythonDay7",
+    "description": "Exploring data structures in Python",
+    "url": "https://github.com/CianHub/100DaysOfPythonDay7",
+    "updatedAt": "2020-08-20T18:49:40Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "100DaysOfPythonDay8",
+    "description": "Solution to the exercise found at https://codechalleng.es/bites/21/",
+    "url": "https://github.com/CianHub/100DaysOfPythonDay8",
+    "updatedAt": "2020-08-22T15:44:24Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "100DaysOfPythonDay9",
+    "description": "A solution to the exercise found here: https://codechalleng.es/bites/21/",
+    "url": "https://github.com/CianHub/100DaysOfPythonDay9",
+    "updatedAt": "2020-08-22T17:05:55Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "100DaysOfPythonDay10",
+    "description": "Exploring unit tests with pytest",
+    "url": "https://github.com/CianHub/100DaysOfPythonDay10",
+    "updatedAt": "2020-08-23T15:23:32Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "100DaysOfPythonDay11",
+    "description": "Practicing testing with PyTest by refactoring and adding tests to the Day 3 repo",
+    "url": "https://github.com/CianHub/100DaysOfPythonDay11",
+    "updatedAt": "2020-08-24T19:28:05Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "Python",
+            "color": "#3572A5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "cost-tracker",
+    "description": "A simple cost tracking app made with React Context and hooks",
+    "url": "https://github.com/CianHub/cost-tracker",
+    "updatedAt": "2020-10-06T20:48:54Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "react-planner-app-refresher",
+    "description": "A simple React refresher application",
+    "url": "https://github.com/CianHub/react-planner-app-refresher",
+    "updatedAt": "2020-10-07T23:36:11Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "react-planner-hooks",
+    "description": "A basic react refresher planner app... with hooks!",
+    "url": "https://github.com/CianHub/react-planner-hooks",
+    "updatedAt": "2020-10-08T20:15:07Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "react-api-query-hooks",
+    "description": "A simple react refresher application for using API queries with hooks",
+    "url": "https://github.com/CianHub/react-api-query-hooks",
+    "updatedAt": "2020-10-11T21:39:35Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "github-job-finder",
+    "description": "A react application using custom hooks to dynamically send and display API data",
+    "url": "https://github.com/CianHub/github-job-finder",
+    "updatedAt": "2020-10-11T23:46:33Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "reactris",
+    "description": "A version of Tetris made with React",
+    "url": "https://github.com/CianHub/reactris",
+    "updatedAt": "2020-10-18T23:08:06Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "workhuman-conversations-main-page-reverse-engineer",
+    "description": "A simplified reverse-engineered version of the interface for WorkHumans Conversations app",
+    "url": "https://github.com/CianHub/workhuman-conversations-main-page-reverse-engineer",
+    "updatedAt": "2020-10-26T15:47:29Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "react-typed-contexts",
+    "description": "A simple app for practicing creating typed contexts and optimising renders in React",
+    "url": "https://github.com/CianHub/react-typed-contexts",
+    "updatedAt": "2020-11-01T16:58:07Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "react-recipe-manager",
+    "description": "A react application for managing recipes and ingredients, made to practice React core concepts.",
+    "url": "https://github.com/CianHub/react-recipe-manager",
+    "updatedAt": "2020-11-01T22:40:42Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "portfolio-v2",
+    "description": "A reboot of my personal website. Work in Progress.",
+    "url": "https://github.com/CianHub/portfolio-v2",
+    "updatedAt": "2020-12-28T00:28:59Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "HTML",
+            "color": "#e34c26"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "CSS",
+            "color": "#563d7c"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__typename": "Repository",
+    "name": "graphql-schema",
+    "description": "GitHub’s GraphQL Schema with validation. Automatically updated.",
+    "url": "https://github.com/CianHub/graphql-schema",
+    "updatedAt": "2020-11-22T20:03:40Z",
+    "languages": {
+      "__typename": "LanguageConnection",
+      "edges": [
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "JavaScript",
+            "color": "#f1e05a"
+          }
+        },
+        {
+          "__typename": "LanguageEdge",
+          "node": {
+            "__typename": "Language",
+            "name": "TypeScript",
+            "color": "#2b7489"
+          }
+        }
+      ]
+    }
+  }
+]

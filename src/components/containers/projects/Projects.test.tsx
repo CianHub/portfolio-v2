@@ -28,7 +28,10 @@ afterEach(() => {
 describe('Projects', () => {
   it('should render the component', async () => {
     act(() => {
-      render(<Projects projects={[testProject]} />, container);
+      render(
+        <Projects projects={[testProject]} showLoading={false} />,
+        container
+      );
     });
 
     await waitFor(async () => {
@@ -38,9 +41,27 @@ describe('Projects', () => {
     });
   });
 
+  it('should render the loading', async () => {
+    act(() => {
+      render(
+        <Projects projects={[testProject]} showLoading={true} />,
+        container
+      );
+    });
+
+    await waitFor(async () => {
+      expect(
+        getByRole(container as HTMLElement, 'progressbar')
+      ).toBeInTheDocument();
+    });
+  });
+
   it('should render the filter component', async () => {
     act(() => {
-      render(<Projects projects={[testProject]} />, container);
+      render(
+        <Projects projects={[testProject]} showLoading={false} />,
+        container
+      );
     });
 
     await waitFor(async () => {
@@ -50,7 +71,10 @@ describe('Projects', () => {
 
   it('should render the project rows', async () => {
     act(() => {
-      render(<Projects projects={[testProject]} />, container);
+      render(
+        <Projects projects={[testProject]} showLoading={false} />,
+        container
+      );
     });
 
     await waitFor(async () => {
@@ -62,7 +86,10 @@ describe('Projects', () => {
 
   it('should call handleSorting on select element value change', async () => {
     act(() => {
-      render(<Projects projects={[testProject]} />, container);
+      render(
+        <Projects projects={[testProject]} showLoading={false} />,
+        container
+      );
     });
     const sort = getByLabelText(
       container as HTMLElement,
@@ -78,7 +105,10 @@ describe('Projects', () => {
 
   it('should call handleFilter on input element value change', async () => {
     act(() => {
-      render(<Projects projects={[testProject]} />, container);
+      render(
+        <Projects projects={[testProject]} showLoading={false} />,
+        container
+      );
     });
     const cssCheckbox = getByLabelText(
       container as HTMLElement,

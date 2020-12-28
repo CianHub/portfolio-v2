@@ -34,7 +34,8 @@ export const ProjectFilter: React.FC<Props> = ({
             id={option}
             name={option}
             onChange={($event) => handleFilter($event)}
-            defaultChecked={filters[option as keyof FilterType]}
+            defaultChecked={true}
+            checked={filters[option as keyof FilterType]}
           />
         </StyledCheckBoxContainer>
       );

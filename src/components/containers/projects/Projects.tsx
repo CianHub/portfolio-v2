@@ -16,9 +16,10 @@ import { ProjectFilter } from '../../view/project-filter/ProjectFilter';
 
 interface Props {
   projects: (GetRepos_viewer_repositories_nodes | null)[] | null | undefined;
+  showLoading: boolean;
 }
 
-const Projects: React.FC<Props> = ({ projects }) => {
+const Projects: React.FC<Props> = ({ projects, showLoading }) => {
   const options = getOptions(projects);
   const sortingOptions = ['Oldest', 'Latest'];
   const [filters, setFilters] = useState<FilterType>({
@@ -71,21 +72,27 @@ const Projects: React.FC<Props> = ({ projects }) => {
       <h2 style={{ alignSelf: 'flex-start', marginBottom: '0.5rem' }}>
         Projects://
       </h2>
-      <span style={{ alignSelf: 'flex-start', marginBottom: '1rem' }}>
-        A collection of my projects and their corresponding repositories.
-      </span>
 
-      <ProjectFilter
-        options={options}
-        sortingOptions={sortingOptions}
-        currentSorting={sorting}
-        handleSorting={handleSorting}
-        handleFilter={handleFilter}
-        filters={filters}
-      />
-      <StyledRow role="rowgroup">
-        {displayProjects(sortProjects(cloneData(projects), sorting), filters)}
-      </StyledRow>
+      {showLoading && <h3 role="progressbar">Loading...</h3>}
+      {!showLoading && (
+        <>
+          <ProjectFilter
+            options={options}
+            sortingOptions={sortingOptions}
+            currentSorting={sorting}
+            handleSorting={handleSorting}
+            handleFilter={handleFilter}
+            filters={filters}
+          />
+
+          <StyledRow role="rowgroup">
+            {displayProjects(
+              sortProjects(cloneData(projects), sorting),
+              filters
+            )}
+          </StyledRow>
+        </>
+      )}
     </StyledSection>
   );
 };
