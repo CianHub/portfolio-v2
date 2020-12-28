@@ -4,7 +4,6 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 
 import './App.css';
 import { Navbar } from './components/containers/navbar/Navbar';
-import Theme from './components/styles/theme';
 import { REPOS_QUERY } from './graphql/queries';
 import {
   LazyAbout,
