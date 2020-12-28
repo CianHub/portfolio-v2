@@ -43,3 +43,7 @@ The pipeline is run with GitHub Actions and executes the following:
 ## Accessibility
 
 The application was designed to be as accessible as possible. Some of the features implemented include specifying aria-roles and wai-aria compliant roles aswell as contrasting colors.
+
+## Data
+
+The data is sourced from my public GitHub repos using GraphQL, if there's an issue with this the application will switch to a hardcoded JSON backup instead.
