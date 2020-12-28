@@ -1,6 +1,6 @@
 import { useQuery } from '@apollo/client';
 import React, { Suspense } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 
 import './App.css';
 import { Navbar } from './components/containers/navbar/Navbar';
@@ -24,7 +24,7 @@ const App: React.FC = () => {
   if (loading) return <div>Loading...</div>;
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <header>
           <Navbar />
@@ -48,7 +48,7 @@ const App: React.FC = () => {
           </Suspense>
         </main>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
