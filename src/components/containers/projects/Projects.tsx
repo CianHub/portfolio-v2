@@ -1,4 +1,3 @@
-import { ApolloError } from '@apollo/client';
 import React, { useState } from 'react';
 import Particles from 'react-particles-js';
 import { cloneData } from '../../../helpers/commonFunctions';
