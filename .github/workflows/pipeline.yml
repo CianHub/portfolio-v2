@@ -38,8 +38,6 @@ jobs:
 
       - name: Build
         run: npm run build
-        env:
-          REACT_APP_GH_PA_TOKEN: ${{ secrets.REACT_APP_GH_PA_TOKEN }}
 
       - name: Deploy
         run: |
@@ -52,4 +50,4 @@ jobs:
           user_email: 'github-actions[bot]@users.noreply.github.com'
           github_token: ${{ secrets.GH_ACTIONS_DEPLOY_ACCCESS_TOKEN }}
           repository: ${{ github.repository }}
-          REACT_APP_GH_PA_TOKEN: '99fd70082b132f99eb29c20ac793f554e7f04f3e'
+          REACT_APP_GH_PA_TOKEN: ${{ secrets.REACT_APP_GH_PA_TOKEN }}

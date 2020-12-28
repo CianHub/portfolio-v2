@@ -27,4 +27,4 @@ export const makeStrArrayValuesUnique = (
 ): boolean => self.indexOf(value) === index;
 
 export const cloneData = (data: unknown): any =>
-  JSON.parse(JSON.stringify(data));
+  data ? JSON.parse(JSON.stringify(data)) : data;
