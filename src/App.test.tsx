@@ -36,18 +36,4 @@ describe('App', () => {
       expect(getByText(container, 'About')).toBeInTheDocument();
     });
   });
-
-  it('should render error text', async () => {
-    const { container } = render(
-      <MockedProvider mocks={mockQueryError} addTypename={false}>
-        <App />
-      </MockedProvider>
-    );
-
-    await waitFor(() => {
-      expect(
-        getByText(container, 'There seems to have been some mistake..')
-      ).toBeInTheDocument();
-    });
-  });
 });
